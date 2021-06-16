@@ -4,7 +4,8 @@
   "description": "Estoy probando Sass con NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node-sass -w sitio/scss -o sitio/css --source-map=true",
+    "prod": "node-sass sitio/scss -o sitio/css --output-style=compressed"
   },
   "repository": {
     "type": "git",

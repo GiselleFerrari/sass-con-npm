@@ -1,4 +1,7 @@
+$naranja: rgb(138, 126, 241);
+$rojo: rgb(114, 61, 54);
 
 body {
-    background-color: purple;
+    background-color: $rojo;
+    color: $naranja;
 }
